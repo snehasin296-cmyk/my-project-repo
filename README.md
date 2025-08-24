@@ -1,14 +1,14 @@
-# Object Detection, Color Detection & Language Translation Projects
+## Object Detection Project
 
-## Project Overview
-This repository contains 3 projects implemented in Python:
-1. **Object Detection** – Detects multiple objects in images or webcam feed using OpenCV.
-2. **Color Detection** – Identifies and displays color names in real-time.
-3. **Language Translation Model** – Translates text from one language to another using Hugging Face MarianMT.
-
-1. Object Detection Project
 ### Overview
 Detects objects in images/videos using OpenCV.  
-### How to Run
-1. Open `Object-Detection/object_detection.ipynb`
-2. Run all cells in Jupyter Notebook 
+
+## Step-Wise Instructions to Run Projects
+1. Open terminal / command prompt inside the project folder.
+2. Run the script:(If using VScode)
+   python object_detection.py
+3. If using Jupyter Notebook:
+   jupyter notebook "Object detection-checkpoint.ipynb"
+4. Upload an image or enable webcam (depending on your code).
+5. Detected objects will be shown with bounding boxes on the output image/video.
+<img width="1003" height="687" alt="image" src="https://github.com/user-attachments/assets/e5d13000-7724-4b22-8293-ca36c0a180f1" />
